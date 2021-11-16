@@ -57,24 +57,24 @@
   + DispatcherServlet 설정(servlet-context.xml)
   + SpringSecurityFilter
   + CharacterEncodeingFilter(한글 깨짐 필터링)
-  + src/main/webapp/WEB-INF
+  + **src/main/webapp/WEB-INF**
 * **jdbc.properties**
   + Database를 접근하기 위한 Property 정보
-  + src/main/webapp/WEB-INF/props
+  + **src/main/webapp/WEB-INF/props**
 * **views_bootstrap**
   + BootStrap을 사용한 JSP 파일들
-  + src/main/webapp/WEB-INF/views_bootstrap
+  + **src/main/webapp/WEB-INF/views_bootstrap**
 * **bootstrap**
   + 사용한 BootStrap 템플릿에 대한 기본 정보
-  + src/main/webapp/resources/bootstrap
+  + **src/main/webapp/resources/bootstrap**
 * **css**
   + JSP 파일에 적용되는 CSS 스타일 정보
-  + src/main/webapp/resources/css
+  + **src/main/webapp/resources/css**
 * **schema.sql**
   + MySQL Table Schema 파일
   + Model 클래스에 대한 정보
-    - **users** 테이블(사용자 정보)
-    - **authorities** 테이블(사용자별 접근 권한)
-    - **coures_and_grade** 테이블(수강과목 및 성적 저장)
+    - **users** (사용자 정보)
+    - **authorities** (사용자별 접근 권한)
+    - **coures_and_grade** (수강과목 및 성적 저장)
 * **data.sql**
   + MySQL Table Data 파일
