@@ -78,3 +78,39 @@
     - **coures_and_grade** (수강과목 및 성적 저장)
 * **data.sql**
   + MySQL Table Data 파일
+
+
+### **5. 실행화면**
+* **로그인**
+![로그인 화면](https://user-images.githubusercontent.com/70512325/144036965-58b92e32-da3c-4a5d-8784-007d15a99550.png)
+---
+
+* **로그아웃**
+![로그아웃](https://user-images.githubusercontent.com/70512325/144038979-dc8899a0-fa60-464f-928e-4209abc99ae7.png)
+---
+
+* **로그인 실패**
+![로그인 실패 화면](https://user-images.githubusercontent.com/70512325/144038922-e78b7859-dd87-483a-87e7-3df9db5b9d8c.png)
+---
+
+* **로그인 성공**
+![로그인 성공](https://user-images.githubusercontent.com/70512325/144039259-ba5c5bc2-ea40-4e2e-9b99-8d4056cc1f77.png)
+---
+
+* **전체 학기 수강 과목 및 성적 조회**
+![전체 학기 수강 과목 조회](https://user-images.githubusercontent.com/70512325/144039529-04d2b2e1-d955-4b25-9dc2-6c644141502a.png)
+---
+
+* **학기별 이수 학점 및 성적 조회(상세보기 아이콘을 클릭하여 상세 조회)**
+![학기별 이수 학점 조회](https://user-images.githubusercontent.com/70512325/144039561-4bef2a13-b3fe-467a-80e5-f9435d0194d7.png)
+![학기별 이수 학점 조회2](https://user-images.githubusercontent.com/70512325/144039568-ec448cff-e3f2-4fa8-af04-6ef3aeab5a75.png)
+---
+
+* **예비 수강 신청**
+![예비 수강 신청 화면](https://user-images.githubusercontent.com/70512325/144039609-1f837b47-9191-499c-83af-2899f1c8ea9f.png)
+![예비 수강 신청 성공](https://user-images.githubusercontent.com/70512325/144039619-b8cc516d-d842-476d-b5ae-8044ad048793.png)
+---
+
+* **예비 수강 신청 과목 조회 및 삭제(삭제 링크를 클릭하여 삭제 가능)**
+![예비 수강 신청 과목 조회](https://user-images.githubusercontent.com/70512325/144039651-e94c124a-22fb-414d-ba39-3d2f55e0ca5e.png)
+![예비 수강 신청 과목 삭제](https://user-images.githubusercontent.com/70512325/144039658-57c62478-b6f0-4b7e-b83a-bc21a6a782f6.png)
