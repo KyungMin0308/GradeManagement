@@ -13,7 +13,7 @@ public class LoginController {
 			@RequestParam(value="logout", required=false) String logout, Model model) {
 		
 		if(error != null) {
-			model.addAttribute("errorMsg", "로그인 실패. ID와 PW를 확인하세요.");
+			model.addAttribute("errorMsg", "ID 또는 PW를 확인하세요.");
 		}
 		if(logout != null) {
 			model.addAttribute("logoutMsg", "성공적으로 로그아웃 되었습니다.");
