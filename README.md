@@ -80,7 +80,11 @@
   + MySQL Table Data 파일
 
 
-### **5. 실행화면**
+### **5. ERR Diagram**
+![AcademicManagement EER 다이어그램](https://user-images.githubusercontent.com/70512325/146889889-3e675bf1-4547-46cf-b7fc-246e656f2031.png)
+
+
+### **6. 실행화면**
 * **로그인**
 ![로그인 화면](https://user-images.githubusercontent.com/70512325/144036965-58b92e32-da3c-4a5d-8784-007d15a99550.png)
 ---
