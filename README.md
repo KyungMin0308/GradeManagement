@@ -80,7 +80,7 @@
   + MySQL Table Data 파일
 
 
-### **5. ERR Diagram**
+### **5. EER Diagram**
 ![AcademicManagement EER 다이어그램](https://user-images.githubusercontent.com/70512325/146889889-3e675bf1-4547-46cf-b7fc-246e656f2031.png)
 
 
