@@ -1,7 +1,7 @@
 # AcademicManagement
 
 ### **1. Description**
-* **Spring Framework**를 활용한 학점 관리 프로그램입니다.
+* **Spring MVC Framework**를 활용한 학점 관리 프로그램입니다.
 * 4학년 1학기까지 들었던 모든 과목들의 정보를 조회할 수 있습니다.
 * 4학년 2학기에 듣고 싶은 과목 정보를 입력하여 예비 수강신청 및 삭제를 할 수 있습니다.
 
