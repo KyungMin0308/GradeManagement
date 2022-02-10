@@ -1,4 +1,4 @@
-# AcademicManagement
+# AcademicManagement_ver.1
 
 ### **1. Description**
 * **Spring MVC Framework**를 활용한 학점 관리 프로그램입니다.
