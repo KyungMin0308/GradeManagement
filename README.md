@@ -1,17 +1,19 @@
 # AcademicManagement
 
 ### **1. Description**
-* 4학년 1학기를 마치고 진행한 프로젝트로 **Spring MVC Framework**를 활용하여 제작한 간단한 학점 및 평점 조회 프로그램입니다.
+* 4학년 1학기까지 배웠던 Spring을 활용해보고자 진행한 프로젝트입니다.
+* **Spring MVC Framework**를 활용하여 제작한 간단한 학점 및 평점 조회 프로그램입니다.
 * **[주요 기능]**
+  + 로그인 & 로그아웃
   + 4학년 1학기까지 들었던 모든 과목들의 정보 조회
+* **[부가 기능]**
   + 4학년 2학기에 듣고 싶은 과목 정보를 입력하여 DB에 저장 및 삭제
-  + 로그인 및 로그아웃
 
 
 ### **2. Environment**
 * **Eclispe**
   + Spring Legacy Project
-    - Template : Spring MVC 선택
+    - Template : Spring MVC
 * **Server**
   + Tomcat
 * **Database**
@@ -34,7 +36,7 @@
   + DAO Class의 객체를 사용하여 Service Layer에서 필요한 작업을 수행
   + **CourseService**
 * **filter**
-  + 기본적인 Filter 클래스로 사용자의 URL 요청을 콘솔에 출력
+  + 기본적인 Filter 클래스로 사용자의 요청 URL을 콘솔에 출력
   + **CourseFilter**
 
 
