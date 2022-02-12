@@ -1,7 +1,6 @@
 # AcademicManagement
 
 ### **1. Description**
-* 4학년 1학기까지 배웠던 Spring을 활용해보고자 진행한 프로젝트입니다.
 * **Spring MVC Framework**를 활용하여 제작한 간단한 학점 및 평점 조회 프로그램입니다.
 * **[주요 기능]**
   + 로그인 & 로그아웃
