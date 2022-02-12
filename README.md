@@ -1,15 +1,19 @@
 # AcademicManagement
 
 ### **1. Description**
-* **Spring MVC Framework**를 활용한 학점 관리 프로그램입니다.
-* 4학년 1학기까지 들었던 모든 과목들의 정보를 조회할 수 있습니다.
-* 4학년 2학기에 듣고 싶은 과목 정보를 입력하여 예비 수강신청 및 삭제를 할 수 있습니다.
+* 4학년 1학기까지 배웠던 Spring을 활용해보고자 진행한 프로젝트입니다.
+* **Spring MVC Framework**를 활용하여 제작한 간단한 학점 및 평점 조회 프로그램입니다.
+* **[주요 기능]**
+  + 로그인 & 로그아웃
+  + 4학년 1학기까지 들었던 모든 과목들의 정보 조회
+* **[부가 기능]**
+  + 4학년 2학기에 듣고 싶은 과목 정보를 입력하여 DB에 저장 및 삭제
 
 
 ### **2. Environment**
 * **Eclispe**
   + Spring Legacy Project
-    - Template : Spring MVC 선택
+    - Template : Spring MVC
 * **Server**
   + Tomcat
 * **Database**
@@ -18,12 +22,10 @@
   
 ### **3. Packages**
 * **controller**
-  + 사용자의 요청(request)을 처리하는 Class
-  + Service Class의 객체를 사용하여 필요한 작업을 수행
+  + Service Class의 객체를 사용하여 사용자의 요청(request)를 처리하는데 필요한 작업을 수행
   + **Custom Login Form**을 사용하기 위해 LoginController 클래스 사용
   + **HomeController, CourseController, LoginController**
 * **dao**
-  + DAO Class를 위한 패키지
   + DB에 접근하여 수행할 작업을 메서드로 구현
   + **CourseDao**
 * **model**
@@ -31,12 +33,10 @@
   + Annotation을 통해 Data Validation을 위한 제약 조건 설정
   + **Course**
 * **service**
-  + Service Layer를 구현하는 Class
-  + DAO Class의 객체를 사용하여 필요한 작업을 수행
+  + DAO Class의 객체를 사용하여 Service Layer에서 필요한 작업을 수행
   + **CourseService**
 * **filter**
-  + 기본 Filter 클래스를 포함하는 패키지
-  + 사용자의 URL 요청을 콘솔에 출력
+  + 기본적인 Filter 클래스로 사용자의 요청 URL을 콘솔에 출력
   + **CourseFilter**
 
 
