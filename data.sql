@@ -1,12 +1,10 @@
 #users table
 insert into users (username, password, enabled) values ('admin', '{noop}adminpw', 1);
-insert into users (username, password, enabled) values ('alice', '{noop}alicepw', 0);
-insert into users (username, password, enabled) values ('1692127', '{noop}16pw', 1);
+insert into users (username, password, enabled) values ('user', '{noop}userpw', 1);
 
 #authorities table
 insert into authorities (username, authority) values ('admin', 'ROLE_ADMIN');
-insert into authorities (username, authority) values ('alice', 'ROLE_USER');
-insert into authorities (username, authority) values ('1692127', 'ROLE_USER');
+insert into authorities (username, authority) values ('user', 'ROLE_USER');
 
 #courses_and_grade table
 #2016년도 1학기
@@ -63,6 +61,3 @@ insert into courses_and_grade (year, semester, subject, curriculum, credit, grad
 insert into courses_and_grade (year, semester, subject, curriculum, credit, grade) values (2021, 1, '빅데이터프로그래밍', '전공', 3, 'A+');
 insert into courses_and_grade (year, semester, subject, curriculum, credit, grade) values (2021, 1, '웹프레임워크2', '전공', 3, 'A+');
 insert into courses_and_grade (year, semester, subject, curriculum, credit, grade) values (2021, 1, '역사와 문명', '교양', 3, 'A+');
-#2021년도 2학기
-insert into courses_and_grade (year, semester, subject, curriculum, credit, grade) values (2021, 2, '그린IT의 이해', '교양', 3, 'A+');
-insert into courses_and_grade (year, semester, subject, curriculum, credit, grade) values (2021, 2, '1인 미디어와 융합콘텐츠', '교양', 3, 'A+');
