@@ -1,4 +1,4 @@
-# AcademicManagement
+# GradeManagement
 
 ### **1. 제작 동기 및 진행 과정**
 * **[제작 동기]**
