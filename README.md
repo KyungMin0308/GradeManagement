@@ -1,4 +1,4 @@
-# AcademicManagement
+# GradeManagement
 
 ### **1. 제작 동기 및 진행 과정**
 * **[제작 동기]**
@@ -44,7 +44,7 @@
   + 1학년부터 4학년까지 각 학기별 수강한 과목들의 학점 및 평점 조회(Read)
   + 4학년 2학기에 듣고 싶은 과목 정보를 입력받아 DB에 저장 및 삭제(Create & Delete)
 * **[패키지 구조]**
-  + ![패키지 구조](https://user-images.githubusercontent.com/70512325/154258184-576517f1-8d9a-4951-aab5-57ddae38088e.png)
+  + ![패키지 구조](https://user-images.githubusercontent.com/70512325/154840034-2626e067-7d90-479d-8d89-fc7e5a5109af.png)
   + ![패키지 구조2](https://user-images.githubusercontent.com/70512325/154258189-6410b0d0-c36a-402f-a47f-856e2d634808.png)
 
 * **[데이터베이스 구조]**
