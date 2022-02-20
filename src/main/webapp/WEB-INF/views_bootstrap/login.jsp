@@ -10,7 +10,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         
-        <title>Academic Management Login</title>
+        <title>Grade Management Login</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="${pageContext.request.contextPath}/resources/bootstrap/assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -24,7 +24,7 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="${pageContext.request.contextPath}/login">Academic Management</a>
+                <a class="navbar-brand" href="${pageContext.request.contextPath}/login">Grade Management</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -39,7 +39,7 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
                         <div class="text-center my-5">
-                            <h1 class="display-5 fw-bolder text-white mb-2">Academic Management Login</h1>
+                            <h1 class="display-5 fw-bolder text-white mb-2">Grade Management Login</h1>
                             <p class="lead text-white-50 mb-4">학번과 비밀번호를 입력하세요.</p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             </div>
