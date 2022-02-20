@@ -1,4 +1,4 @@
-package com.kyungmin.academicmanagement.dao;
+package com.kyungmin.grademanagement.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,7 +11,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.kyungmin.academicmanagement.model.Course;
+import com.kyungmin.grademanagement.model.Course;
 
 @Repository
 public class CourseDao {

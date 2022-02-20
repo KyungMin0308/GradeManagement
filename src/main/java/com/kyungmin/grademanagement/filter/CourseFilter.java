@@ -1,4 +1,4 @@
-package com.kyungmin.academicmanagement.filter;
+package com.kyungmin.grademanagement.filter;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.kyungmin.academicmanagement.controller;
+package com.kyungmin.grademanagement.controller;
 
 
 import org.springframework.stereotype.Controller;

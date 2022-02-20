@@ -1,12 +1,12 @@
-package com.kyungmin.academicmanagement.service;
+package com.kyungmin.grademanagement.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.kyungmin.academicmanagement.dao.CourseDao;
-import com.kyungmin.academicmanagement.model.Course;
+import com.kyungmin.grademanagement.dao.CourseDao;
+import com.kyungmin.grademanagement.model.Course;
 
 @Service
 public class CourseService {

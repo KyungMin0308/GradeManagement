@@ -1,4 +1,4 @@
-package com.kyungmin.academicmanagement.model;
+package com.kyungmin.grademanagement.model;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;

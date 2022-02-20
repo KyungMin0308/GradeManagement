@@ -1,4 +1,4 @@
-package com.kyungmin.academicmanagement.controller;
+package com.kyungmin.grademanagement.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,8 +13,8 @@ import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.kyungmin.academicmanagement.model.Course;
-import com.kyungmin.academicmanagement.service.CourseService;
+import com.kyungmin.grademanagement.model.Course;
+import com.kyungmin.grademanagement.service.CourseService;
 
 @Controller
 public class CourseController {
